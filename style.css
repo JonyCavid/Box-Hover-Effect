@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    margin: 20% 0 0 65px;
+    border: 1px solid white;
+    width: 25%;
+    padding: 50px;
+    -webkit-box-shadow: 3px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 3px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 3px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+p {
+    padding-top: 13px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.box:hover {
+    border-radius: 10px;
+    border-left: 10px solid red;
+    transition: 1s;
+    -webkit-box-shadow: -13px 10px 13px 8px rgb(0 0 0 / 20%);
+    -moz-box-shadow: -13px 10px 13px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: -13px 10px 13px 8px rgb(0 0 0 / 20%);
+}
